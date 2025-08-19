@@ -46,5 +46,5 @@ if [[ $REPO == "Dao-AILab/flash-attention" ]]; then
 fi
 
 if [[ $REPO == "MiXaiLL76/faster_coco_eval" ]]; then
-  pip install pybind11
+  pip install pybind11 cython
 fi
