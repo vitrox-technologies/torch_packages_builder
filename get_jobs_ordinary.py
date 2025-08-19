@@ -10,7 +10,7 @@ MACOS_ARM64 = "macos-14"
 # Standard Python versions to support
 DEFAULT_PYTHON_VERSIONS = ("3.9", "3.10", "3.11", "3.12", "3.13")
 # Standard numpy versions to support
-DEFAULT_NUMPY_VERSIONS = ("1.24.0", "1.26.0", "2.0.0")
+DEFAULT_NUMPY_VERSIONS = ("1.24.0", "1.26.0", "2.0.1")
 
 
 def add_os(oses_list: list, os_name: str, os_env_var: str):
