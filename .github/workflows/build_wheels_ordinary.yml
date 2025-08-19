@@ -1,4 +1,4 @@
-name: Build Wheels
+name: Build Wheels Ordinary
 
 on:
   workflow_dispatch:
