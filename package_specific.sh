@@ -44,3 +44,7 @@ if [[ $REPO == "Dao-AILab/flash-attention" ]]; then
 
   patch -p0 < "$SCRIPT_DIR"/package_specific/flash_attention.patch
 fi
+
+if [[ $REPO == "MiXaiLL76/faster_coco_eval" ]]; then
+  pip install pybind11
+fi
